@@ -1,0 +1,19 @@
+{
+  "name": "ui-bootstrap-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artbase-frontend/ui-bootstrap-template.git"
+  },
+  "author": "art_base",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artbase-frontend/ui-bootstrap-template/issues"
+  },
+  "homepage": "https://github.com/artbase-frontend/ui-bootstrap-template#readme"
+}
