@@ -1,8 +1,27 @@
-<html>
+<!doctype html>
+<html lang="pl" ng-app="app">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+    <title>App</title>
+
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+    <!--base configuration-->
+    <script src="src/app.js"></script>
+    <script src="src/app.config.js"></script>
+    <script src="src/app.routes.js"></script>
+    <script src="src/app.run.js"></script>
+
+    <!--controllers-->
+    <script src="src/layout/base/base.controller.js"></script>
+    <script src="src/components/feed/feed.controller.js"></script>
 
 </head>
-<body>
-
+<body ng-controller="baseController">
+    {{test}}
+    <div ui-view></div>
 </body>
 </html>

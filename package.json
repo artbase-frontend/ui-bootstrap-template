@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/artbase-frontend/ui-bootstrap-template/issues"
   },
-  "homepage": "https://github.com/artbase-frontend/ui-bootstrap-template#readme"
+  "homepage": "https://github.com/artbase-frontend/ui-bootstrap-template#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-webserver": "^0.9.1",
+    "opn": "^4.0.0",
+    "run-sequence": "^1.1.5"
+  }
 }
